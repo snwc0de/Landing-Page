@@ -1,0 +1,76 @@
+body {
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+}
+
+.header {
+    background-color: #1F2937;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+}
+
+.action {
+    background-color: #3882F6;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+}
+
+.text-header .main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.text-header .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.quote .main {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote .secondary {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.action .main {
+    font-size: 24px;
+    color: #E5E7EB;
+    font-weight: bold;
+}
+
+.action .secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
