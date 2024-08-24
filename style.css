@@ -1,13 +1,10 @@
 body {
-    margin: 0px;
     font-family: 'Segoe UI', Tahoma, 'Geneva', Verdana, sans-serif;
+   
 }
 
 .header {
     background-color: #1F2937;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 200px;
 }
 
 .footer {
@@ -26,6 +23,19 @@ body {
 
 button {
     background-color: #3882F6;
+    border-radius: 6px;
+    padding: 5px 30px;
+    font-weight: 600;
+    width: fit-content;
+}
+
+.action button {
+    border-style: solid;
+    border-color: white;
+}
+
+.bottom-header button {
+    border-width: 0;
 }
 
 .text-header .main {
@@ -37,6 +47,7 @@ button {
 .text-header .secondary {
     font-size: 18px;
     color: #E5E7EB;
+    text-align: left;
 }
 
 .logo {
@@ -81,29 +92,66 @@ a {
     color: #E5E7EB;
 }
 
-li {
+ul {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    padding-left: 0px;
+    text-align: center;
+}
+
+/* SOLUTION */
+
+body {
+    width: 100%;
+    margin: 0px;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .top-header {
     display: flex;
+    align-items: center;
+    flex-wrap: wrap;  
     justify-content: space-between;
+    flex: 1 1 80%;
+    width: 80%;
+ 
 }
 
-.right-links {
+.bottom-header {
     display: flex;
     justify-content: space-between;
-    gap: 15px;
+    width: 80%;
+    flex: 1 1 80%;
+    gap: 50px;
 }
 
-.bottom-header{
+.text-header {
     display: flex;
-    justify-content: space-between;
-    gap: 30px;
-    margin: 100px 0px;
+    flex-direction: column;
 }
 
-.image img {
-    width: 500px;
+.header-image {
+    display: inline-flex;
+    width: 1000px;
     height: 250px;
+    flex: ;
+}
+
+.text-header button {
+    margin-top: 10px;
+}
+
+.header-image img {
+    width: 100%;
+    object-fit: fill;
 }
