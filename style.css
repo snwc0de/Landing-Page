@@ -5,6 +5,7 @@ body {
     justify-content: space-between;
     min-height: 100vh;
     max-width: 100vw;
+    margin: 0px;
 }
 
 .header {
@@ -106,13 +107,6 @@ ul {
     text-align: left;
 }
 
-/* SOLUTION */
-
-body {
- 
-    margin: 0px;
-}
-
 .header {
     display: flex;
     flex-direction: column;
@@ -165,8 +159,6 @@ body {
     margin-top: 30px;
 }
 
-
-
 .container{
     display: flex;
     flex-direction: column;
@@ -193,7 +185,6 @@ body {
 
 .text-image {
     text-align: center;
-
 }
 
 .image-with-text {
@@ -205,7 +196,7 @@ body {
     flex: 1 1 200px;
 }
 
-.image-with-text img{
+.image-with-text img {
     border-style: solid;
     border-color: blue;
     border-radius: 20px;
